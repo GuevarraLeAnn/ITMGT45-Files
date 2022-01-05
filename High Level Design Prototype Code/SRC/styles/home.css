@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../static/home_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reminders {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 81.54vw;
+    margin: 5vh 9.2vw 0 9.2vw;
+}
+
+.notif {
+    width: 24px;
+    height: 24px;
+    margin-left: 35vw;
+}
+
+.greeting {
+    font-family: 'Roboto', 'sans-serif';
+    color: #F2F2F2;
+    letter-spacing: 0.15px;
+    font-size: 18px;
+}
+
+.message {
+    font-family: 'Roboto', 'sans-serif';
+    color: #F2F2F2;
+    letter-spacing: 0.15px;
+    font-size: 14px;
+    width: 182px;
+    margin: 39px 0 197px 9.2vw;
+}
+
+.sched {
+    background-color: black;
+    border-radius: 20px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    transform: translateY(20%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 81.54vw;
+    margin: auto auto 30px auto;
+}
+
+.title {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #F2F2F2;
+    margin-right: 23vw;
+}
+
+.start {
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: #C11A67;
+    border-radius: 8px;
+}
+
+.start a {
+    position: relative;
+    top: 5px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.15px;
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.workouts {
+    width: 81.54vw;
+    margin: auto;
+}
+
+.workouts .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.workouts .item img {
+    margin-right: 20px;
+}
+
+
+.workouts .item h3 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    color: #F2F2F2;
+}
+
+.workouts .item .description {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+.workouts .item .tags {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}

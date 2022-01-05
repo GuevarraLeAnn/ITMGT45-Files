@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    background-image: none;
+}
+
+.group-profile {
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.group-profile .group-dp {
+    border: #C11A67 solid;
+    border-radius: 60px;
+    transform: translateX(20%);
+}
+
+.group-profile .group-details {
+    transform: translateX(-15%);
+}
+
+.group-profile .group-details h4{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+.group-profile .group-details p{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+.group-profile .group-details a{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    opacity: 60%;
+    text-decoration: underline;
+}
+
+h4, p, a {
+    margin: 5px;
+}
+
+.progress-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.monthly-challenges {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+}
+
+.feed {
+    height: 130vh;
+}
+
+.feed img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+}
+
+.feed img:nth-child(2) {
+    margin-left: 40px;
+}
+
+.group-profile .group-details .num1, .group-profile .group-details .num2 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+.group-profile .group-details .num1 {
+    position: absolute;
+    top: 168px;
+    left: -97px;
+}
+
+.group-profile .group-details .num2 {
+    position: absolute;
+    top: 168px;
+    left: 9.5px;
+}
+
+.group-profile .group-details .num3 {
+    position: absolute;
+    top: 168px;
+    left: 126px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.15px;
+    color: black;
+}
